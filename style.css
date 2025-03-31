@@ -1,0 +1,37 @@
+body {
+    background-color: #fffafc; 
+  }
+  
+  .header-container {
+    background-color: #ffe6f2; 
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  
+  .custom-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem; 
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .icon-letter {
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .pink { color: #ff5f9e; }  
+  .purple { color: #874ec6; } 
+  .blue { color: #4a90e2; }   
